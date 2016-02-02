@@ -2,7 +2,7 @@
 
 ###What's this
     ControlView For "titles in Slider"
-![](http://g.recordit.co/hQEuHgiXyK.gif)  
+![](http://g.recordit.co/nJbSjBmuKS.gif)  
 
 ###How to use
     just clone this project,see the src folder,read .h file
@@ -17,7 +17,7 @@
     
 ###这是什么
     一个展示文字标题相关的动效，一图流
-![](http://g.recordit.co/hQEuHgiXyK.gif)  
+![](http://g.recordit.co/nJbSjBmuKS.gif)  
 
 ###如何使用
     clone这个项目到本地，看src文件夹里面的.h文件，里面有详细的注释
