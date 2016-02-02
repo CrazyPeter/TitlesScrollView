@@ -8,10 +8,10 @@
     just clone this project,see the src folder,read .h file
     
 ###Attention
-    1.no cocoapods surpport,it's to easy,no need cocoapods
-    2.no "swift vertion",if you need that,you can rewrite this view by your self.
+    1.no cocoapods surpport,it's too easy,no need cocoapods
+    2.no "swift vertion" on plan,if you need that,you can rewrite this view by your self.
     
-####if you like it ,you can buy me a coffee,Alipay:k9629@163.com
+####if you like it ,you can buy me a cup of coffee,Alipay:k9629@163.com
     
 <br> <br> <br> 
     
