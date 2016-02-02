@@ -26,15 +26,12 @@
     [self initScrollView];
 }
 
-
-/*
- 在父视图添加titlesdelegate
- */
+#pragma MARK - initViews
 -(void)initTitleScrollView
 {
-    NSArray *titleArray = @[@"黄",@"天蓝",@"橘色",@"紫色",@"绿"];
-    _titleScrollView = [[TitleScrollView alloc]initWithFrame:CGRectMake((screenBouns.size.width - 120)/2.0f, 100, 120, 40)];
-    _titleScrollView.buttonWidth = 40;
+    NSArray *titleArray = @[@"yellow",@"cyan",@"orange",@"purple",@"green"];
+    _titleScrollView = [[TitleScrollView alloc]initWithFrame:CGRectMake((screenBouns.size.width - 240)/2.0f, 100, 240, 40)];
+    _titleScrollView.buttonWidth = 80;
     _titleScrollView.pagingEnabled = YES;
     [_titleScrollView setupWithTitleArray:titleArray];
     _titleScrollView.backgroundColor = [UIColor darkGrayColor];
@@ -63,16 +60,16 @@
 }
 
 
-
+#pragma MARK - delegate
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     [_titleScrollView didScollContentOffsetX:scrollView.contentOffset.x andPageSizeX:screenBouns.size.width];
 }
 
-//回调方法
--(void)scrollviewShouldScollByTitleScollview:(float)Xpercent
+#pragma MARK - delegate
+-(void)scrollviewShouldScollByTitleScollview:(float)page
 {
-    [self.scrollView setContentOffset:CGPointMake(Xpercent*screenBouns.size.width, 0) animated:YES];
+    [self.scrollView setContentOffset:CGPointMake(page*screenBouns.size.width, 0) animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

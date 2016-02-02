@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "67883D3391362A843D0F9B5DC9C188480A8604F8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "67883D3391362A843D0F9B5DC9C188480A8604F8" : 0,
+    "EE65A933767A1D9A4E717C837796DBB99727F334" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B1750C06-E627-404D-BB5F-3E7275521FB1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "67883D3391362A843D0F9B5DC9C188480A8604F8" : "TitlesScrollView\/",
+    "EE65A933767A1D9A4E717C837796DBB99727F334" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TitlesScrollView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo\/TitlesScrollView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CrazyPeter\/TitlesScrollView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67883D3391362A843D0F9B5DC9C188480A8604F8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CrazyPeter\/CrazyPeter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE65A933767A1D9A4E717C837796DBB99727F334"
+    }
+  ]
+}

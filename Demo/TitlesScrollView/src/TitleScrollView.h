@@ -11,37 +11,52 @@
 
 @protocol TitlesInScollViewDelegate <NSObject>
 
-/*
- *回调函数：告诉上层界面现在应该在的位置
- *Xpercent：这个数值乘以每个界面的width就是上层界面应该滑动的距离
+/**
+ *  delegate function
+ *
+ *  @param Xpercent currentpageInTitleScrollview
  */
-- (void)scrollviewShouldScollByTitleScollview:(float)Xpercent;
+- (void)scrollviewShouldScollByTitleScollview:(float)page;
 
 @end
 
 @interface TitleScrollView : UIScrollView
 
 /*
- *按钮的宽度，高度与scrollview相同
+ *WARNING: if you want appear 3 buttons at the sametime,in the titlescrollview
+ *         you should frame like this :
+ *         buttonWidth*3 = titleScrollViewWidth
  */
+
+
+/**
+*  setupWithTitleArray
+*
+*  @param array titlesForShow
+*/
+
+- (void)setupWithTitleArray:(NSArray *)array;
 
 @property float buttonWidth;
 
 /*
  *gsv -- gray scale values
- *灰阶值，取值范围：0 - 1
 */
 
+/**
+ *  gsv_selected - buttonHighlightedColor
+ *  gsv_default  - buttonNormalColor
+ */
 @property float gsv_selected;
 @property float gsv_default;
 
-/*
- *缩放大小
+/**
+ *  scale_max    - button's Scale,highlighted
+ *  scale_min    - button's Scale,normal
  */
 @property float scale_max;
 @property float scale_min;
 
-- (void)setupWithTitleArray:(NSArray *)array;
 
 /*
  *pagesizex：每页的width
